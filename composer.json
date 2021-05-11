@@ -1,0 +1,25 @@
+{
+    "name": "alr/simplephp",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "twig/twig": "^3.3",
+        "illuminate/database": "^8.40",
+        "eftec/bladeone": "^3.52",
+        "filp/whoops": "^2.12",
+        "illuminate/events": "^8.41",
+        "illuminate/routing": "^8.41"
+    },
+    "autoload": {
+        "classmap": [
+            "app/Models"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [{
+        "name": "Alberto Luque Rivas",
+        "email": "aluquerivas@gmail.com"
+    }]
+}
